@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding:0%;
+}
+html,body{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(40deg,#000000,#7d8da3)
+}
+.container{
+    width: auto;
+    height: auto;
+    padding:  20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin: 20px;
+    background:transparent;
+    box-shadow: 2px 3px 25px #fff;
+}
+.container input{
+    width: auto;
+    height: auto;
+    background:transparent;
+    border: none;
+    text-align: right;
+    margin: 20px;
+    padding:  auto;
+    font-size: large;
+    color: #fff;
+
+}
+.container input::placeholder{
+    color: #fff;
+}
+.container div{
+    height: auto;
+    width: auto;
+
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+.container header{
+    color: #dd790d;
+    font-size: medium;
+}
+
+    .container div button{
+        border-radius: 10vh;
+        padding: 10px;
+        margin-left:6px;
+        margin-top: 2vh;
+        width: 6vh;
+        border:  none;
+        height: 6vh;
+        background:transparent;
+        color: #fff;
+        font-size: auto;
+        box-shadow: -5px -6px 15px rgba(255, 255, 255, 0.25);
+        cursor: pointer;
+        transition: ease-in all .1s;
+    }
+    .container div button:hover
+    {
+        background-color: #dd790d;
+        scale:1.1
+    }
+.container div .operator{
+    color: #0ae90a;
+}
+.container div .equalTo{
+    background-color: #dd790d;
+}
